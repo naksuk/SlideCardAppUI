@@ -9,13 +9,16 @@
 /* Begin PBXBuildFile section */
 		02D9A742272E6D1800F810ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D9A741272E6D1800F810ED /* AppDelegate.swift */; };
 		02D9A744272E6D1800F810ED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D9A743272E6D1800F810ED /* SceneDelegate.swift */; };
-		02D9A746272E6D1800F810ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D9A745272E6D1800F810ED /* ViewController.swift */; };
-		02D9A749272E6D1800F810ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02D9A747272E6D1800F810ED /* Main.storyboard */; };
+		02D9A746272E6D1800F810ED /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D9A745272E6D1800F810ED /* HomeViewController.swift */; };
 		02D9A74C272E6D1800F810ED /* SlideCardAppUI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 02D9A74A272E6D1800F810ED /* SlideCardAppUI.xcdatamodeld */; };
 		02D9A74E272E6D1900F810ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02D9A74D272E6D1900F810ED /* Assets.xcassets */; };
 		02D9A751272E6D1900F810ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02D9A74F272E6D1900F810ED /* LaunchScreen.storyboard */; };
 		02D9A75C272E6D1900F810ED /* SlideCardAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D9A75B272E6D1900F810ED /* SlideCardAppUITests.swift */; };
 		02D9A767272E6D1900F810ED /* SlideCardAppUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D9A766272E6D1900F810ED /* SlideCardAppUIUITests.swift */; };
+		02D9A77A272E731900F810ED /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02D9A779272E731900F810ED /* Home.storyboard */; };
+		02D9A77C272E737000F810ED /* CardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02D9A77B272E737000F810ED /* CardView.xib */; };
+		02D9A77E272E74C900F810ED /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D9A77D272E74C900F810ED /* CardView.swift */; };
+		02D9A780272E7B1200F810ED /* UIView - Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D9A77F272E7B1200F810ED /* UIView - Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +42,7 @@
 		02D9A73E272E6D1800F810ED /* SlideCardAppUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideCardAppUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02D9A741272E6D1800F810ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02D9A743272E6D1800F810ED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		02D9A745272E6D1800F810ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		02D9A748272E6D1800F810ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		02D9A745272E6D1800F810ED /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		02D9A74B272E6D1800F810ED /* SlideCardAppUI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SlideCardAppUI.xcdatamodel; sourceTree = "<group>"; };
 		02D9A74D272E6D1900F810ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02D9A750272E6D1900F810ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +53,10 @@
 		02D9A762272E6D1900F810ED /* SlideCardAppUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlideCardAppUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02D9A766272E6D1900F810ED /* SlideCardAppUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideCardAppUIUITests.swift; sourceTree = "<group>"; };
 		02D9A768272E6D1900F810ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02D9A779272E731900F810ED /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		02D9A77B272E737000F810ED /* CardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardView.xib; sourceTree = "<group>"; };
+		02D9A77D272E74C900F810ED /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		02D9A77F272E7B1200F810ED /* UIView - Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView - Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,12 +107,13 @@
 		02D9A740272E6D1800F810ED /* SlideCardAppUI */ = {
 			isa = PBXGroup;
 			children = (
-				02D9A741272E6D1800F810ED /* AppDelegate.swift */,
-				02D9A743272E6D1800F810ED /* SceneDelegate.swift */,
-				02D9A745272E6D1800F810ED /* ViewController.swift */,
-				02D9A747272E6D1800F810ED /* Main.storyboard */,
+				02D9A783272E848300F810ED /* View */,
+				02D9A782272E844600F810ED /* ViewController */,
+				02D9A781272E7E8A00F810ED /* Extensions */,
 				02D9A74D272E6D1900F810ED /* Assets.xcassets */,
 				02D9A74F272E6D1900F810ED /* LaunchScreen.storyboard */,
+				02D9A741272E6D1800F810ED /* AppDelegate.swift */,
+				02D9A743272E6D1800F810ED /* SceneDelegate.swift */,
 				02D9A752272E6D1900F810ED /* Info.plist */,
 				02D9A74A272E6D1800F810ED /* SlideCardAppUI.xcdatamodeld */,
 			);
@@ -131,6 +138,48 @@
 			path = SlideCardAppUIUITests;
 			sourceTree = "<group>";
 		};
+		02D9A781272E7E8A00F810ED /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				02D9A77F272E7B1200F810ED /* UIView - Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		02D9A782272E844600F810ED /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				02D9A785272E860400F810ED /* Home */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		02D9A783272E848300F810ED /* View */ = {
+			isa = PBXGroup;
+			children = (
+				02D9A784272E84B500F810ED /* CardView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		02D9A784272E84B500F810ED /* CardView */ = {
+			isa = PBXGroup;
+			children = (
+				02D9A77D272E74C900F810ED /* CardView.swift */,
+				02D9A77B272E737000F810ED /* CardView.xib */,
+			);
+			path = CardView;
+			sourceTree = "<group>";
+		};
+		02D9A785272E860400F810ED /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				02D9A745272E6D1800F810ED /* HomeViewController.swift */,
+				02D9A779272E731900F810ED /* Home.storyboard */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,6 +196,8 @@
 			dependencies = (
 			);
 			name = SlideCardAppUI;
+			packageProductDependencies = (
+			);
 			productName = SlideCardAppUI;
 			productReference = 02D9A73E272E6D1800F810ED /* SlideCardAppUI.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +269,8 @@
 				Base,
 			);
 			mainGroup = 02D9A735272E6D1800F810ED;
+			packageReferences = (
+			);
 			productRefGroup = 02D9A73F272E6D1800F810ED /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -234,9 +287,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02D9A77A272E731900F810ED /* Home.storyboard in Resources */,
 				02D9A751272E6D1900F810ED /* LaunchScreen.storyboard in Resources */,
+				02D9A77C272E737000F810ED /* CardView.xib in Resources */,
 				02D9A74E272E6D1900F810ED /* Assets.xcassets in Resources */,
-				02D9A749272E6D1800F810ED /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +315,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02D9A746272E6D1800F810ED /* ViewController.swift in Sources */,
+				02D9A780272E7B1200F810ED /* UIView - Extensions.swift in Sources */,
+				02D9A746272E6D1800F810ED /* HomeViewController.swift in Sources */,
 				02D9A74C272E6D1800F810ED /* SlideCardAppUI.xcdatamodeld in Sources */,
 				02D9A742272E6D1800F810ED /* AppDelegate.swift in Sources */,
 				02D9A744272E6D1800F810ED /* SceneDelegate.swift in Sources */,
+				02D9A77E272E74C900F810ED /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,14 +356,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		02D9A747272E6D1800F810ED /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				02D9A748272E6D1800F810ED /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		02D9A74F272E6D1900F810ED /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
